@@ -1,0 +1,76 @@
+.cont{
+    width: 1700px;
+    height:480px;
+    background-color: #7ca9f7;
+}
+/* .aq{
+    width:5%;
+    height:5%;
+    margin-top: -30%;
+   
+} */
+.vision{
+    margin-left: 60%;;
+    margin-top: -10%;
+    margin-bottom: 20%;
+    
+}
+.v{
+    margin-left: 75%;
+    margin-bottom: 1%;
+    margin-top: -7%;
+}
+.M{
+    margin-left: 50%;
+
+  
+}
+.o{
+   margin-left: 50%;
+
+}
+/* YourComponent.css */
+.container {
+ 
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:73vh;
+    background-color: #3498db;
+    margin-left: 2%;
+    height:80%
+    
+    /* Adjusted margin-bottom */
+  }
+  
+    
+    /* Adjusted margin-bottom */
+  
+  
+  table {
+    width: 100%; /* Adjusted width to fill the container */
+    border-collapse: collapse;
+    background-color: #055386;
+    color: #7ca9f7;
+    margin-top: 30px;
+    margin-left: 5%; /* Adjusted margin-top */
+  }
+  
+  
+  th, td {
+    border: 1px solid #7ca9f7;
+    padding: 20px;
+    text-align: left;
+  
+  }
+  
+  th {
+    background-color: #085080;
+  }
+  
+  tr {
+    background-color: #7ca9f7;
+    font-size: 30px;
+  }
+  

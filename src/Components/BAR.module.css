@@ -1,0 +1,31 @@
+/* BAR.module.css */
+
+.example1 {
+  height: 50px; 
+  overflow: hidden;
+  position: relative;
+}
+
+.example1 span {
+  position: absolute;
+  width: 65%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+
+  /* Starting position */
+  transform: translateX(100%);
+
+  /* Apply animation to this element */
+  animation: example1 10s linear infinite;
+}
+
+@keyframes example1 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

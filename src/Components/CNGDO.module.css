@@ -1,0 +1,13 @@
+/* HSE.module.css */
+
+.border {
+    border: 1px solid #007bff; /* Bootstrap primary color */
+}
+
+.padding {
+    padding: 1rem; /* Adjust as needed */
+}
+
+.text {
+    /* Add any additional text styling here */
+}

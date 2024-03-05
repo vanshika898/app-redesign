@@ -1,0 +1,106 @@
+.h1{
+    margin-top: -30%;
+    margin-bottom: 20%;
+    margin-left: 60%;
+    color: white;
+}
+.p1{
+    margin-left: 50%;
+    color: white;  
+    width: 40%;
+    font-size: 150%;
+    margin-top: -15%;
+    margin-bottom: 10%;
+}
+/* YourComponent.css */
+
+.ox-container {
+    display: inline-block;
+  }
+  
+  .b1, .b2, .b3, .b4 {
+    width: 400px;
+    padding: 10%;
+    height: 150px;
+    background-color:#4981e2;
+    display: inline-block;
+    margin: 70px; 
+    margin-bottom: 20%;
+    border-radius: 30%; /* Added margin for better visibility */
+  }
+  hr.vertical-line {
+    border: none;
+    border-left: 1px solid #4981e2; /* You can change the color and thickness */
+     /* Adjust the height as needed */
+     height:4px;
+     width: 80px;
+    transform: rotate(90deg);
+    margin-left: 30%;
+    margin-top: -3%;
+    margin-bottom: 20px;
+}
+hr.vertical-line1{
+  border: none;
+    border-left: 1px solid #4981e2; /* You can change the color and thickness */
+     /* Adjust the height as needed */
+     height:4px;
+     width: 80px;
+    transform: rotate(90deg);
+    margin-left: 60%;
+    margin-top: -3%;
+    margin-bottom: 20px;
+
+}
+hr.vertical-line2{
+  border: none;
+    border-left: 1px solid #4981e2; /* You can change the color and thickness */
+     /* Adjust the height as needed */
+     height:4px;
+     width: 80px;
+    transform: rotate(90deg);
+    margin-left: 90%;
+    margin-top: -3%;
+    margin-bottom: 20px;
+
+}
+.img40, .img35, .img36, .img37 {
+  width: 23%;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 16px;
+  padding:35px;
+}
+
+
+ #hep {
+  margin-left: 85%;
+  margin-top: -7%;
+}
+
+
+#sur {
+  
+  margin-top: -7%;
+  margin-left: 5%;
+}
+
+
+ #car {
+
+  margin-top: -1%;
+  
+} 
+
+
+ #ped {
+  
+  margin-top: -2%;
+} 
+#hep, #car, #ped, #sur {
+  margin-top: 10%;
+  width: 23%;
+  display: inline;
+  margin-left: 6.3%;
+  padding:80px; 
+  
+}
