@@ -13,7 +13,7 @@ export default function Home() {
  
   return (
    <div className='container-fluid'>
-
+<div>
 <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
   <ol className="carousel-indicators">
   <li data-target="#carouselExampleIndicators" data-slide-to={0} className="active" />
@@ -41,6 +41,7 @@ export default function Home() {
     <span className="sr-only">Next</span>
   </a>
 </div>  
+</div> 
 
 
       <div className='container-fluid'>
@@ -149,9 +150,8 @@ Aavantika Gas Limited (AGL) is not directly involved in natural gas exploration 
  
 
     </div>
-    </div>
-
-  
+   
+    </div> 
   
   );
 }

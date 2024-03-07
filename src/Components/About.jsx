@@ -4,29 +4,33 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 export default function About() {
   return (
-    <div >
-      <div>
+    <div className="container-fluid">
+    <div className="row">
+      <div className="col-12">
         <img
           src="img/img22.png"
-          style={{ width: "100%", height: "auto" }}
+          className="img-fluid"
           alt=""
         />
-        <h1 className="h1">
+      </div>
+    </div>
+    <div className="row" >
+      <div className="col-lg-8 offset-lg-2">
+        <h1 className="h1 e">
           <b>ABOUT AGL</b>
         </h1>
-        <p className="p1">
-          AGL, the acronym for Aavantika Gas Limited was incorporated on 07th
-          June 2006. It is a joint venture Central Govt. Authorised company of
-          GAIL (India) Limited and Hindustan Petroleum Corporation Limited.
-          Aavantika Gas Limited is a joint venture of GAIL (India) Limited &
-          HPCL meant for City Gas Distribution in Madhya Pradesh. Ministry of
-          Petroleum and Natural Gas has recognized AGL to carry out the CGD
-          projects at Indore, Gwalior and Ujjain.
+        <p className="p1 text-sm text-md text-lg m ">
+          AGL, the acronym for Aavantika Gas Limited was incorporated on 07th June 2006. It is a joint venture Central Govt. Authorized company of GAIL (India) Limited and Hindustan Petroleum Corporation Limited. Aavantika Gas Limited is a joint venture of GAIL (India) Limited & HPCL meant for City Gas Distribution in Madhya Pradesh. Ministry of Petroleum and Natural Gas has recognized AGL to carry out the CGD projects at Indore, Gwalior, and Ujjain.
         </p>
       </div>
+  
+  
+    </div>  
+  
 
-    
-     <div className="container-xxl py-6" id="about" style={{marginTop:"10%",fontSize:"25px"}}>
+
+        
+     <div className="container-xxl py-6" id="about" style={{marginTop:"10%",fontSize:"25px",marginBottom:"20%"}}>
   <div className="container">
     <div className="row g-5">
       <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -65,56 +69,8 @@ export default function About() {
     </div>
   </div>
 </div>
-<hr />
-<div className="ox-container" style={{borderRadius:"30%"}}>
-        <div className="b1">
-          <div
-            style={{
 
-              width: "300%",
-              marginLeft: "-60%",
-              fontSize: "120%",
-              color: "white",
-              marginTop: "-40%",
-              borderRadius:"30%"
-            }}
-          >
-           <b> JOINT VENTURE AGREEMENT SIGNED ON NOV 16, 2005</b>
-          </div>
-        </div>
-
-        <div className="b3" style={{ marginTop: "-2%" }}>
-         
-          <div
-            style={{
-              width: "300%",
-              marginLeft: "-60%",
-              fontSize: "120%",
-              color: "white",
-              marginTop: "-20%",
-              borderRadius:"30%"
-            }}
-          >
-           <b>AUTHORIZED SHARE CAPITAL RS. 100 CRORES</b> 
-          </div>
-        </div>
-        <div className="b4">
-          <div
-            style={{
-              width: "300%",
-              marginLeft: "-60%",
-              fontSize: "120%",
-              color: "white",
-              marginTop: "-70%",
-              borderRadius:"30%"
-            }}
-          ><b>CERTIFICATE OF COMMENCEMENT OF BUSINESS OBTAINED ON AUGUST 24, 2006</b>
-            
-          </div>
-         
-        </div> 
-       
-        </div>  
+ 
      
         <div className="container">
       <h1 className="text-center mb-5" style={{ fontSize: '70px', color: '#4981e2',marginTop:'-17%' }}>

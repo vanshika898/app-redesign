@@ -10,7 +10,7 @@ export default function Login() {
   }
 
   return (
-    <div className="login">
+    <div className="login" style={{marginBottom:"10%"}}> 
       
       <div className="img">
         <img src="img/img33.png"  style ={{marginLeft:"15%",width:"30%" ,marginTop:"5%"}}alt="" />

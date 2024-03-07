@@ -1,6 +1,14 @@
+*
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
 body {
   font-family: 'Times New Roman', Times, serif;
   font-size: medium;
+  max-width: fit-content;
 }
 
 
@@ -18,8 +26,8 @@ body {
   color: white;
   border: none;
   cursor: pointer;
-  margin-left: 350px;
-  margin-top: 2px;
+
+
 }
 /* Navbar.css */
 .navbar-container {
@@ -29,6 +37,67 @@ body {
 
 .navbar {
   background-color: #ffffff;
+}
+/* Navbar.css */
+.container-fluid {
+  zIndex: 2000;
+  margin-left: -3;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+.nav img {
+  width: 66px;
+  height: 70px;
+}
+
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.form-outline {
+  margin-right: 10px;
+}
+
+.btn-primary {
+  background-color: white;
+  height: 40px;
+  border-color: green;
+}
+
+.btn-primary i {
+  color: black;
+}
+
+.nav-link {
+  color: white;
+}
+
+.p2 ul, .p3 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 .logo {
@@ -89,8 +158,10 @@ body {
   color: white;
   border: none;
   cursor: pointer;
-  margin-left: 3px;
-  margin-top: 2px;
+  
+
+
+
 }
 
 #b1:hover {
@@ -240,4 +311,100 @@ div.nav {
 }
 .p3{
   margin-left: -1%;
+}
+
+.a1{
+  margin-top: -10px;
+ 
+}
+/* styles.css */
+.na{
+  color:#4981e2
+}
+hr {
+  color: #4981e2; /* Set the desired color */
+}
+
+.a2{
+  font-size: 17px;
+  margin-top: -46px;
+}
+.a3{
+  font-size: 17px;
+  margin-top: -15px;
+  margin-left: -8%;
+}
+
+.a4{
+ font-size: 17px;
+ margin-top: 1%;
+  margin-left: -9%;
+}
+.q1{
+  margin-left: 20%;
+  margin-top: 3%;
+}
+#b1{
+  margin-left: 280%;
+  display: flex;
+  margin-top: -13%;
+}
+
+#b2{
+  margin-left: 240%;
+  display: flex;
+  margin-top: -13%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .a1,
+  .a2,
+  .a3,
+  .a4,
+  .q1 {
+    margin: 10px;
+  }
+
+  .q1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+/* Navbar.modules.css */
+/* Add your existing styles here */
+
+/* Media Query for all screen sizes */
+@media screen {
+  /* Add styles that apply to all screen sizes here */
+}
+
+/* Media Query for screens smaller than 576px (phones) */
+@media (max-width: 575.98px) {
+  /* Add specific styles for phones here */
+}
+
+/* Media Query for screens between 576px and 767.98px (landscape phones and portrait tablets) */
+@media (min-width: 576px) and (max-width: 1414x) {
+  /* Add specific styles for landscape phones and portrait tablets here */
+}
+
+/* Media Query for screens between 768px and 991.98px (landscape tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Add specific styles for landscape tablets here */
+}
+
+/* Media Query for screens between 992px and 1199.98px (small desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Add specific styles for small desktops here */
+}
+
+/* Media Query for screens larger than 1200px (larger desktops) */
+@media (min-width: 1200px) {
+  /* Add specific styles for larger desktops here */
 }

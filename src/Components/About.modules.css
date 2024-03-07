@@ -24,9 +24,17 @@
     height: 150px;
     background-color:#4981e2;
     display: inline-block;
-    margin: 70px; 
+    margin: 40px; 
     margin-bottom: 20%;
     border-radius: 30%; /* Added margin for better visibility */
+  }
+  .m{
+    margin-left: 40%;
+    width:70%
+    
+  }
+  .e{
+    margin-top: -40%;
   }
   hr.vertical-line {
     border: none;
@@ -100,7 +108,58 @@ hr.vertical-line2{
   margin-top: 10%;
   width: 23%;
   display: inline;
-  margin-left: 6.3%;
+  margin-left: 5%;
   padding:80px; 
   
 }
+@media (min-width: 653px) and (max-width: 1414px) {
+      
+       
+  .b1,.b2,.b3,.b4{
+    width: 20%;
+    display: inline;
+
+    margin-left: 40px;
+    padding:20px;
+  
+    
+  
+   }
+
+  }
+  @media (min-width: 278px) and (max-width: 653px) {
+  
+   
+    .b1,.b2,.b3,.b4{
+      
+     
+      width: 20%;
+      display: inline;
+ 
+      margin-left: 20px;
+      padding:10px;
+    
+    
+    
+    
+      
+    
+     }}
+     @media (min-width: 0px) and (max-width: 278px) {
+  
+   
+      .b1,.b2,.b3,.b4{
+        
+       
+        width: 20%;
+        display: inline;
+   
+        margin-left: 10px;
+        padding:5px;
+      
+      
+      
+      
+        
+      
+       }}

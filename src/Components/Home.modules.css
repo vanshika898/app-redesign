@@ -1177,3 +1177,54 @@ a {
     .block-37:hover .image:before, .block-37:focus .image:before {
       opacity: .7;
       visibility: visible; }
+      @media (min-width: 653px) and (max-width: 1414px) {
+      
+       
+      .img10,.img11,.img12{
+        width: 20%;
+        display: inline;
+   
+        margin-left: 50px;
+        padding:20px;
+      
+        
+      
+       }
+
+      }
+      @media (min-width: 278px) and (max-width: 653px) {
+      
+       
+        .img10,.img11,.img12{
+          
+         
+          width: 20%;
+          display: inline;
+     
+          margin-left: 20px;
+          padding:10px;
+        
+        
+        
+        
+          
+        
+         }}
+         @media (min-width: 0px) and (max-width: 278px) {
+      
+       
+          .img10,.img11,.img12{
+            
+           
+            width: 20%;
+            display: inline;
+       
+            margin-left: 10px;
+            padding:5px;
+          
+          
+          
+          
+            
+          
+           }}
